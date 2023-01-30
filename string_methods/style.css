@@ -3,7 +3,7 @@
 }
 
 body{
-	padding: 10px 150px;
+	padding: 10px 170px;
 }
 
 div{
@@ -31,6 +31,19 @@ button {
 	text-align: center;
 	font-weight: 500;
 }
+
+a{
+	text-decoration: none;
+	padding: 7px 15px;
+	margin: 15px 10px;
+	color: #fff;
+	background: red;
+	box-shadow: 2px 2px 4px #000;
+	border: 1px solid white;
+	text-align: center;
+	font-weight: 500;
+}
+
 
 .main__text{
 	padding: 7px;

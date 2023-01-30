@@ -58,16 +58,66 @@ function toUpperCase(){
 
 function toLowerCase(){
 		let test = "Click on any button to see how it works";
-		let slice = test.toUpperCase();
+		let slice = test.toLowerCase();
 		document.getElementById("demo").innerHTML = 
-		`<h2> ${slice}</h2>  <br> <br> change texts to upper case.`;
+		`<h2> ${slice}</h2>  <br> <br> change texts to lower case.`;
 };
 
 function concat(){
 		let test = "Click on any button to see how it works";
-		let newTest = "See me here!!!"
+		let newTest = " - ha ha See me here!!!"
 		let slice = test.concat(newTest); 
 		document.getElementById("demo").innerHTML = 
 		`<h2> ${slice}</h2>  <br> <br> <strong> varname.concat(newVarname) </strong> 
-		change texts to upper case.`;
+		concatenates 2 strings together..`;
+};
+
+function trim(){
+		let test = "Click on any button to see how it   works   .";
+		let slice = test.trim(); 
+		document.getElementById("demo").innerHTML = 
+		`<h2> ${slice}</h2>  <br> <br> <strong> string.trim() </strong> 
+		Remove white spaces from all sides of the string.`;
+};
+
+function padStart(){
+		let test = "Click on any button to see how it works.";
+		let slice = test.padStart(50, "yes "); 
+		document.getElementById("demo").innerHTML = 
+		`<h2> ${slice}</h2>  <br> <br> <strong> string.padStart() </strong> 
+		pads a string with a string from the start. It returns the final string
+		that is padded with the given string to the given length`;
+};
+
+function padEnd(){
+		let test = "Click on any button to see how it works.";
+		let slice = test.padEnd(50, "yes "); 
+		document.getElementById("demo").innerHTML = 
+		`<h2> ${slice}</h2>  <br> <br> <strong> string.padEnd() </strong> 
+		pads a string with a string from the end. It returns the final string
+		that is padded with the given string to the given length`;
+};
+
+function charAt(){
+		let test = "Click on any button to see how it works.";
+		let slice = test.charAt(17); 
+		document.getElementById("demo").innerHTML = 
+		`<h2> ${slice}</h2>  <br> <br> <strong> string.charAt(17) </strong> 
+		 Prints out the character of a 17 position `;
+};
+
+function charCodeAt(){
+		let test = "Click on any button to see how it works.";
+		let slice = test.charCodeAt(15); 
+		document.getElementById("demo").innerHTML = 
+		`<h2> ${slice}</h2>  <br> <br> <strong> string.charCodeAT(15) </strong> 
+		 Prints out the character UNICODE of a position 15`;
+};
+
+function split(){
+		let test = "Click, on, any, button, to, see, how, it, works.";
+		let slice = test.split(","); 
+		document.getElementById("demo").innerHTML =
+		`<h2> ${slice[0]}</h2>  <br> <br> <strong> string.split(",") </strong> 
+		 Converts a string to an array. in the case the first word was converted`;
 };
