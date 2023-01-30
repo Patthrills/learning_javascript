@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	padding: 10px 170px;
+}
+
+div{
+	width: 80%;
+	margin: 20px auto;
+	padding: 50px;
+	border: 2px solid pink;
+	text-align: center;
+}
+
+section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+button {
+	
+	padding: 7px 15px;
+	margin: 15px 10px;
+	color: #fff;
+	background: #496378;
+	box-shadow: 2px 2px 4px #000;
+	border: 1px solid white;
+	text-align: center;
+	font-weight: 500;
+}
+
+a{
+	text-decoration: none;
+	padding: 7px 15px;
+	margin: 15px 10px;
+	color: #fff;
+	background: red;
+	box-shadow: 2px 2px 4px #000;
+	border: 1px solid white;
+	text-align: center;
+	font-weight: 500;
+}
+
+
+.main__text{
+	padding: 7px;
+	font-weight: 500;
+	border: 2px solid #496378;
+}
