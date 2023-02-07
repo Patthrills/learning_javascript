@@ -198,4 +198,3 @@ function method_24() {
 	document.getElementById('demo').innerHTML = `<h3>${check}</h3>
 	<b>Math.log10(x)</b> returns the base 10 logarithm of x.`;
 };
-
